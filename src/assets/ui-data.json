@@ -1,0 +1,95 @@
+{
+  "aspectRatios": [
+    {
+      "value": "1:1",
+      "icon": "Square",
+      "label": "1:1"
+    },
+    {
+      "value": "2:3",
+      "icon": "RectangleVertical",
+      "label": "2:3"
+    },
+    {
+      "value": "16:9",
+      "icon": "RectangleHorizontal",
+      "label": "16:9"
+    }
+  ],
+  "imageStyles": [
+    {
+      "value": "Auto",
+      "icon": "/Ai.svg",
+      "label": "Auto",
+      "type": "img"
+    },
+    {
+      "value": "General",
+      "icon": "LayoutGrid",
+      "label": "General",
+      "type": "icon"
+    },
+    {
+      "value": "Realistic",
+      "icon": "/Pics.svg",
+      "label": "Realistic",
+      "type": "img"
+    },
+    {
+      "value": "Design",
+      "icon": "/design.svg",
+      "label": "Design",
+      "type": "img"
+    },
+    {
+      "value": "3D",
+      "icon": "/Box.svg",
+      "label": "3D",
+      "type": "img"
+    },
+    {
+      "value": "Anime",
+      "icon": "Laugh",
+      "label": "Anime",
+      "type": "icon"
+    }
+  ],
+  "adCounts": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "colorPalette": [
+    {
+      "color": "#FF8DB7"
+    },
+    {
+      "color": "#BBC7EA"
+    },
+    {
+      "color": "#D98D62"
+    },
+    {
+      "color": "#F35C5C"
+    },
+    {
+      "color": "#F93C94"
+    }
+  ],
+  "subscription": {
+    "plan": "Annual Platinum Plan",
+    "upgradeLabel": "Upgrade",
+    "stats": [
+      {
+        "iconColor": "text-yellow-400",
+        "value": "20/300"
+      },
+      {
+        "iconColor": "text-purple-400",
+        "value": "15/300"
+      }
+    ]
+  }
+}
