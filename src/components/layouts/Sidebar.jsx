@@ -185,9 +185,9 @@ export default function AdCreatorSidebar() {
           </div>
 
           {/* Medium Button */}
-          <div className={`flex-1 p-[1px] ${generationPace === 'Medium' ? 'bg-gradient-to-r from-[#C85ED8] to-[#A079F8]' : 'bg-transparent'}`}>
+          <div className={`flex-1 p-[1px] rounded ${generationPace === 'Medium' ? 'bg-gradient-to-r from-[#C85ED8] to-[#A079F8]' : 'bg-transparent'}`}>
             <button
-              className="w-full py-2 px-2 text-xs bg-[#3445A1]"
+              className="w-full py-2 px-2 rounded text-xs bg-[#3445A1]"
               onClick={() => setGenerationPace('Medium')}
             >
               Medium
@@ -195,9 +195,9 @@ export default function AdCreatorSidebar() {
           </div>
 
           {/* Slow Button */}
-          <div className={`flex-1 p-[1px] rounded-r ${generationPace === 'Slow' ? 'bg-gradient-to-r from-[#C85ED8] to-[#A079F8]' : 'bg-transparent'}`}>
+          <div className={`flex-1 p-[1px] rounded ${generationPace === 'Slow' ? 'bg-gradient-to-r from-[#C85ED8] to-[#A079F8]' : 'bg-transparent'}`}>
             <button
-              className="w-full py-2 px-2 rounded-r text-xs bg-[#3445A1]"
+              className="w-full py-2 px-2 rounded text-xs bg-[#3445A1]"
               onClick={() => setGenerationPace('Slow')}
             >
               Slow
