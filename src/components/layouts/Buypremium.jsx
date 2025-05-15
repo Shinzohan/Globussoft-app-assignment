@@ -18,7 +18,7 @@ export default function SubscriptionUI() {
       {/* Content below */}
       <div className="flex rounded-full bg-transparent border border-white text-white overflow-hidden">
         {/* Completed section */}
-        <div className="flex items-center justify-center py-1 px-1 lg:py-2 lg:px-3 gap-2">
+        <div className="flex items-center justify-center py-1 px-3 md:px-1 lg:py-2 lg:px-3 gap-2">
           <NotebookPen size={22} className="text-yellow-600 rounded bg-[#1F296A]" />
           <span className="font-medium">20/300</span>
         </div>
@@ -27,7 +27,7 @@ export default function SubscriptionUI() {
         <div className="w-px bg-white opacity-40"></div>
 
         {/* Failed section */}
-        <div className="flex items-center justify-center py-1 px-1 lg:py-2 lg:px-3 rounded gap-2">
+        <div className="flex items-center justify-center py-1 px-4 md:p-1 lg:py-2 lg:px-3 rounded gap-2">
           <PencilRuler size={22} className="text-yellow-600 rounded-full bg-[#1F296A]" />
           <span className="font-medium">15/300</span>
         </div>
